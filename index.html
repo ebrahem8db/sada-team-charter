@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وثيقة فريق صدى | الميثاق التأسيسي والرؤية</title>
+    
+    <!-- استيراد خطوط عربية موحدة وأنيقة من Google Fonts (Tajawal و Cairo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- استيراد مكتبة Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- إعدادات مخصصة لـ Tailwind بدرجات الأزرق الضبابي الفاتح وألوان الشعار المتناغمة -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Tajawal', 'sans-serif'],
+                        heading: ['Cairo', 'sans-serif'],
+                    },
+                    colors: {
+                        // درجات الأزرق الضبابي الخفيف القريب للأبيض للخلفيات والمساحات الواسعة
+                        mist: {
+                            25: '#FAFDFE',
+                            50: '#F4F9FD',
+                            100: '#EAF2FA',
+                            200: '#D8E7F6',
+                            300: '#C2D9F0',
+                        },
+                        // الأزرق العميق المريح للنصوص والعناوين الرئيسية فقط لضمان أعلى وضوح
+                        navy: {
+                            600: '#2B547E',
+                            700: '#204266',
+                            800: '#1B365D',
+                            900: '#132744',
+                        },
+                        // الأزرق المتوسط الناعم للتفاصيل والأيقونات
+                        sadaBlue: {
+                            50: '#F2F8FD',
+                            100: '#E3EFFB',
+                            200: '#C8E0F7',
+                            500: '#3A82C4',
+                            600: '#266EB0',
+                            700: '#1D578E',
+                        },
+                        // الأحمر القرمزي / العنابي من الشعار
+                        crimson: {
+                            50: '#FDF4F7',
+                            100: '#FCE8EF',
+                            200: '#F8D1E0',
+                            500: '#B81D56',
+                            600: '#9E0B41',
+                            700: '#820835',
+                        },
+                        // البرتقالي الذهبي الدافئ من الموجة الوسطى
+                        amberWave: {
+                            50: '#FFF9F0',
+                            100: '#FFF1DC',
+                            400: '#FFA938',
+                            500: '#F7941D',
+                            600: '#D97706',
+                        },
+                        // الأخضر الحيوي من الشجرة والعشب
+                        lushGreen: {
+                            50: '#F4FAF0',
+                            100: '#E6F4DC',
+                            500: '#6DB32E',
+                            600: '#5E9E26',
+                            700: '#497D1C',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- تنسيقات خاصة بالطباعة وتحسين القراءة -->
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #F4F9FD;
+            color: #1E293B;
+        }
+        h1, h2, h3, h4, .font-heading {
+            font-family: 'Cairo', sans-serif;
+        }
+        
+        /* تنسيق شريط التمرير بألوان هادئة */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #EAF2FA;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #9CC0E5;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #266EB0;
+        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- تنسيقات خاصة بالطباعة وتحسين القراءة -->
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        h1, h2, h3, h4, .font-heading {
+            font-family: 'Cairo', sans-serif;
+        }
+        .font-formal {
+            font-family: 'Amiri', serif;
+        }
+        
+        /* تنسيق شريط التمرير بألوان الهوية */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #0066B2;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #002B5B;
+        }
+
+        /* تنسيقات الطباعة (Print / Save as PDF) */
+        @media print {
+            body {
+                background-color: #ffffff !important;
+                color: #000000 !important;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .print-full-width {
+                width: 100% !important;
+                max-width: 100% !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                box-shadow: none !important;
+                border: none !important;
+            }
+            .page-break-inside-avoid {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-sadaBlue-200 selection:text-navy-900">
+
+    <!-- شريط التقدم العلوي للقراءة مستوحى من ألوان الموجات الثلاث في الشعار -->
+    <div class="fixed top-0 right-0 left-0 h-1.5 bg-mist-200 z-50 no-print">
+        <div id="reading-progress" class="h-full bg-gradient-to-l from-sadaBlue-500 via-amberWave-500 to-crimson-600 w-0 transition-all duration-150"></div>
+    </div>
+
+    <!-- الشريط العلوي (Navbar) -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-mist-200 shadow-sm no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- شعار فريق صدى الرسمي -->
+                <a href="#" class="flex items-center gap-3.5 group">
+                    <div class="h-14 px-2.5 py-1 rounded-2xl bg-mist-25 border border-mist-200 shadow-sm flex items-center justify-center group-hover:border-sadaBlue-500/40 transition-all">
+                        <img src="Inclusive Voices Community Logo.png" alt="شعار فريق صدى" class="h-11 w-auto object-contain" onerror="this.onerror=null; this.src='https://placehold.co/140x60/ffffff/1B365D?text=صدى';">
+                    </div>
+                    <div>
+                        <span class="font-heading font-extrabold text-xl text-navy-800 block leading-none">فريق صدى</span>
+                        <span class="text-xs text-sadaBlue-600 font-semibold mt-1 block">للتنمية والأثر المجتمعي الشامل</span>
+                    </div>
+                </a>
+
+                <!-- أزرار الإجراءات السريعة -->
+                <div class="flex items-center gap-2 sm:gap-3">
+                    <!-- أزرار التحكم بحجم الخط -->
+                    <div class="hidden md:flex items-center bg-mist-50 rounded-xl p-1 border border-mist-200">
+                        <button onclick="changeFontSize(-1)" title="تصغير الخط" class="p-2 text-navy-800 hover:text-sadaBlue-600 hover:bg-white rounded-lg transition-colors text-sm font-bold">أ-</button>
+                        <span class="text-xs text-mist-300 px-1">|</span>
+                        <button onclick="changeFontSize(1)" title="تكبير الخط" class="p-2 text-navy-800 hover:text-sadaBlue-600 hover:bg-white rounded-lg transition-colors text-sm font-bold">أ+</button>
+                    </div>
+
+                    <!-- زر نسخ رابط الوثيقة -->
+                    <button onclick="copyShareLink()" class="p-2.5 sm:px-4 sm:py-2.5 rounded-xl border border-mist-200 bg-white text-navy-800 hover:bg-mist-100 hover:border-mist-300 transition-all flex items-center gap-2 text-sm font-semibold" title="نسخ رابط الوثيقة">
+                        <svg class="w-4 h-4 text-sadaBlue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+                        </svg>
+                        <span class="hidden sm:inline">مشاركة</span>
+                    </button>
+
+                    <!-- زر الطباعة / تحميل PDF بألوان أزرق ضبابي ناعمة -->
+                    <button onclick="window.print()" class="px-4 py-2.5 rounded-xl bg-mist-100 hover:bg-mist-200 text-navy-800 border border-mist-300 shadow-sm transition-all flex items-center gap-2 text-sm font-bold">
+                        <svg class="w-4 h-4 text-crimson-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+                        </svg>
+                        <span>طباعة / PDF</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- القسم الترحيبي (Hero Section) بخلفية زرقاء ضبابية فاتحة ومريحة قريبة للأبيض -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-mist-100 via-mist-50 to-white border-b border-mist-200/80 text-navy-800 py-16 sm:py-24 no-print">
+        <!-- شريط زخرفي علوي يمثل موجات اللوغو الثلاث -->
+        <div class="absolute top-0 inset-x-0 h-1.5 flex">
+            <div class="w-1/3 bg-sadaBlue-500"></div>
+            <div class="w-1/3 bg-amberWave-500"></div>
+            <div class="w-1/3 bg-crimson-600"></div>
+        </div>
+
+        <!-- زخرفة خلفية هندسية ناعمة -->
+        <div class="absolute inset-0 opacity-30 pointer-events-none text-mist-300">
+            <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="echo-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                        <circle cx="20" cy="20" r="1.5" fill="currentColor" />
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#echo-grid)" />
+            </svg>
+        </div>
+
+        <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <!-- بطاقة الشعار البارزة في الواجهة -->
+            <div class="inline-block bg-white p-4 sm:p-6 rounded-3xl shadow-xl shadow-mist-300/40 border border-mist-200 mb-8 transform hover:scale-105 transition-transform duration-300">
+                <img src="Inclusive Voices Community Logo.png" alt="شعار فريق صدى الرسمي" class="h-24 sm:h-32 w-auto object-contain mx-auto" onerror="this.onerror=null; this.src='https://placehold.co/260x120/ffffff/1B365D?text=فريق+صدى';">
+            </div>
+
+            <!-- شارة الإصدار -->
+            <div class="block mb-5">
+                <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white border border-mist-200 text-navy-700 text-xs sm:text-sm font-bold shadow-sm">
+                    <span class="w-2 h-2 rounded-full bg-lushGreen-600 animate-pulse"></span>
+                    <span>الوثيقة التأسيسية المعتمدة • الإصدار الثاني (2026)</span>
+                </span>
+            </div>
+
+            <h1 class="font-heading text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 leading-tight text-navy-800">
+                وثيقة <span class="text-crimson-600">فريق صدى</span> التنظيمية
+            </h1>
+            
+            <p class="max-w-2xl mx-auto text-base sm:text-xl text-slate-600 leading-relaxed mb-10 font-medium">
+                "لأن لكل فكرةٍ نبيلةٍ صوتاً يستحق أن يتردد أثره في المجتمع" — الإطار المرجعي الشامل لرؤيتنا، قيمنا، هيكلنا التنظيمي، وميثاق العمل المشترك.
+            </p>
+
+            <!-- أزرار الدعوة لاتخاذ إجراء (CTAs) -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#document-start" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-mist-200/80 hover:bg-mist-200 border border-mist-300 text-navy-900 font-heading font-extrabold text-base shadow-sm transition-all flex items-center justify-center gap-2">
+                    <span>قراءة الوثيقة كاملة</span>
+                    <svg class="w-5 h-5 text-sadaBlue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                    </svg>
+                </a>
+                <a href="#section-pledge" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-crimson-600 hover:bg-crimson-700 text-white font-heading font-bold text-base shadow-md shadow-crimson-600/20 transition-all">
+                    انضم إلى فريق صدى
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- شريط التنقل السريع للهواتف المحمولة (Mobile Sticky TOC) -->
+    <div class="lg:hidden sticky top-20 z-30 bg-white/95 backdrop-blur-md border-b border-mist-200 shadow-sm px-4 py-2.5 overflow-x-auto no-print">
+        <div class="flex items-center gap-2 min-w-max">
+            <span class="text-xs font-bold text-navy-800 ml-1">فهرس الوثيقة:</span>
+            <a href="#section-intro" class="mobile-toc-link px-3 py-1.5 rounded-lg text-xs font-bold bg-mist-100 text-navy-800 border border-mist-300">1. المقدمة والرؤية</a>
+            <a href="#section-mission" class="mobile-toc-link px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 hover:bg-mist-50">2. الرسالة والأهداف</a>
+            <a href="#section-values" class="mobile-toc-link px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 hover:bg-mist-50">3. القيم والمبادئ</a>
+            <a href="#section-structure" class="mobile-toc-link px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 hover:bg-mist-50">4. الهيكل التنظيمي</a>
+            <a href="#section-membership" class="mobile-toc-link px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 hover:bg-mist-50">5. العضوية والواجبات</a>
+            <a href="#section-pledge" class="mobile-toc-link px-3 py-1.5 rounded-lg text-xs font-semibold text-slate-600 hover:bg-mist-50">6. ميثاق الالتزام والانضمام</a>
+        </div>
+    </div>
+
+    <!-- المحتوى الرئيسي: عارض الوثيقة + الفهرس الجانبي -->
+    <main id="document-start" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+        <div class="flex flex-col lg:flex-row gap-8 items-start">
+            
+            <!-- القائمة الجانبية للفهرس (Sidebar Table of Contents) -->
+            <aside class="hidden lg:block w-80 sticky top-28 shrink-0 no-print">
+                <div class="bg-white rounded-2xl border border-mist-200 shadow-sm p-6">
+                    <div class="flex items-center gap-2.5 pb-4 mb-4 border-b border-mist-100">
+                        <span class="w-2.5 h-6 rounded-full bg-gradient-to-b from-sadaBlue-500 via-amberWave-500 to-crimson-600"></span>
+                        <h2 class="font-heading font-extrabold text-navy-800 text-lg">فهرس بنود الوثيقة</h2>
+                    </div>
+
+                    <nav id="desktop-toc" class="space-y-1.5">
+                        <a href="#section-intro" data-target="section-intro" class="toc-link flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm font-bold bg-mist-100 text-navy-800 border-r-4 border-sadaBlue-500 transition-all">
+                            <span class="w-6 h-6 rounded-lg bg-sadaBlue-500 text-white text-xs flex items-center justify-center font-bold">١</span>
+                            <span>المقدمة والرؤية</span>
+                        </a>
+                        <a href="#section-mission" data-target="section-mission" class="toc-link flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-600 hover:bg-mist-50 hover:text-navy-800 transition-all">
+                            <span class="w-6 h-6 rounded-lg bg-mist-100 text-navy-700 text-xs flex items-center justify-center font-bold">٢</span>
+                            <span>الرسالة والأهداف الاستراتيجية</span>
+                        </a>
+                        <a href="#section-values" data-target="section-values" class="toc-link flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-600 hover:bg-mist-50 hover:text-navy-800 transition-all">
+                            <span class="w-6 h-6 rounded-lg bg-mist-100 text-navy-700 text-xs flex items-center justify-center font-bold">٣</span>
+                            <span>القيم والمبادئ الحاكمة</span>
+                        </a>
+                        <a href="#section-structure" data-target="section-structure" class="toc-link flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-600 hover:bg-mist-50 hover:text-navy-800 transition-all">
+                            <span class="w-6 h-6 rounded-lg bg-mist-100 text-navy-700 text-xs flex items-center justify-center font-bold">٤</span>
+                            <span>الهيكل التنظيمي ولجان العمل</span>
+                        </a>
+                        <a href="#section-membership" data-target="section-membership" class="toc-link flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-600 hover:bg-mist-50 hover:text-navy-800 transition-all">
+                            <span class="w-6 h-6 rounded-lg bg-mist-100 text-navy-700 text-xs flex items-center justify-center font-bold">٥</span>
+                            <span>العضوية والحقوق والواجبات</span>
+                        </a>
+                        <a href="#section-pledge" data-target="section-pledge" class="toc-link flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-sm font-medium text-slate-600 hover:bg-mist-50 hover:text-navy-800 transition-all">
+                            <span class="w-6 h-6 rounded-lg bg-mist-100 text-navy-700 text-xs flex items-center justify-center font-bold">٦</span>
+                            <span>ميثاق الالتزام والانضمام</span>
+                        </a>
+                    </nav>
+
+                    <!-- بطاقة معلومات سريعة داخل الشريط الجانبي بلون أزرق ضبابي فاتح -->
+                    <div class="mt-6 pt-5 border-t border-mist-100">
+                        <div class="bg-mist-50 rounded-xl p-4 border border-mist-200">
+                            <p class="text-xs text-navy-800 font-bold mb-1">هل ترغب بنسخة ورقية؟</p>
+                            <p class="text-xs text-slate-600 leading-relaxed mb-3">يمكنك طباعة هذه الوثيقة أو حفظها بصيغة PDF مع ظهور الشعار والتنسيق الرسمي.</p>
+                            <button onclick="window.print()" class="w-full py-2.5 px-3 rounded-lg bg-mist-200 hover:bg-mist-300 text-navy-900 text-xs font-extrabold transition-colors">
+                                حفظ كملف PDF الآن
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- متن الوثيقة الرسمي (Document Reader Card) -->
+            <article id="document-content" class="flex-1 bg-white rounded-3xl border border-mist-200 shadow-xl shadow-mist-200/40 p-6 sm:p-10 lg:p-14 print-full-width text-base leading-relaxed relative overflow-hidden">
+                
+                <!-- شريط علوي ثلاثي الألوان مستوحى من موجات شعار صدى -->
+                <div class="absolute top-0 inset-x-0 h-2 flex">
+                    <div class="w-1/3 bg-sadaBlue-500"></div>
+                    <div class="w-1/3 bg-amberWave-500"></div>
+                    <div class="w-1/3 bg-crimson-600"></div>
+                </div>
+
+                <!-- ترويسة الوثيقة الرسمية متضمنة الشعار -->
+                <div class="border-b-2 border-mist-100 pb-8 mb-10 pt-2 flex flex-col sm:flex-row sm:items-center justify-between gap-6">
+                    <div class="flex items-center gap-4">
+                        <div class="bg-mist-25 p-2.5 rounded-2xl border border-mist-200 shadow-sm shrink-0">
+                            <img src="Inclusive Voices Community Logo.png" alt="شعار فريق صدى" class="h-14 sm:h-16 w-auto object-contain" onerror="this.onerror=null; this.src='https://placehold.co/140x65/ffffff/1B365D?text=صدى';">
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold tracking-wider uppercase text-crimson-600 block mb-1">وثيقة رسمية • مرجع رقم SD-2026-01</span>
+                            <h2 class="font-heading text-2xl sm:text-3xl font-extrabold text-navy-800">الميثاق التأسيسي لفريق صدى</h2>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-3 bg-mist-50 px-4 py-2.5 rounded-xl border border-mist-200 self-start sm:self-center">
+                        <div class="text-right">
+                            <span class="text-[11px] text-sadaBlue-700 font-semibold block">تاريخ الاعتماد الرسمي</span>
+                            <span class="text-xs font-extrabold text-navy-800">تشرين الثاني / نوفمبر 2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- البند الأول: المقدمة والرؤية -->
+                <section id="section-intro" class="scroll-mt-32 mb-14 page-break-inside-avoid">
+                    <div class="flex items-center gap-3 mb-5">
+                        <span class="w-9 h-9 rounded-xl bg-mist-100 text-sadaBlue-700 border border-mist-300 font-heading font-extrabold flex items-center justify-center text-lg">١</span>
+                        <h3 class="font-heading text-xl sm:text-2xl font-extrabold text-navy-800">المقدمة والرؤية</h3>
+                    </div>
+                    
+                    <div class="space-y-4 text-slate-700 leading-8">
+                        <p>
+                            انطلاقاً من الإيمان العميق بأهمية العمل الجماعي المنظم، وبأن الطاقات الشبابية والمجتمعية حين تتكامل وتحتضن الجميع تصنع أثراً مستداماً يتردد صداه في كل زاوية، تأسس <strong class="text-navy-800 font-extrabold">«فريق صدى»</strong> ليكون منصة فاعلة تجمع المبدعين والمبادرين تحت مظلة واحدة تسعى للارتقاء بالوعي، وتمكين المجتمع، وتنفيذ المبادرات النوعية ذات الأثر الحقيقي.
+                        </p>
+                        <p>
+                            تُمثل هذه الوثيقة المرجع الدستوري والتنظيمي الأعلى للفريق، حيث ترسم معالم الهوية، وتحدد الصلاحيات، وتضبط إيقاع العمل الداخلي بما يضمن الشفافية، الاستمرارية، والاحترافية في كافة المشاريع والأنشطة.
+                        </p>
+                    </div>
+
+                    <!-- صندوق الرؤية بنفس خط وبنية بقية النصوص مع خلفية زرقاء ضبابية خفيفة -->
+                    <div class="mt-6 p-6 sm:p-7 rounded-2xl bg-mist-50 border border-mist-200 border-r-4 border-r-sadaBlue-500">
+                        <div class="flex items-center gap-2.5 text-navy-800 font-heading font-extrabold text-lg mb-2.5">
+                            <span class="w-8 h-8 rounded-lg bg-amberWave-100 text-amberWave-600 flex items-center justify-center">
+                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                                    <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd" />
+                                </svg>
+                            </span>
+                            <span>رؤية الفريق (Vision)</span>
+                        </div>
+                        <p class="text-slate-700 font-medium leading-8">
+                            «أن نكون المنارة الشبابية الرائدة في صناعة التغيير الإيجابي، والنموذج الملهم للعمل التطوعي المؤسسي الشامل الذي يُمكّن الإنسان ويحوّل الطاقات الكامنة إلى أثرٍ تنمويٍ مستدامٍ يتردد صداه في كل مكان.»
+                        </p>
+                    </div>
+                </section>
+
+                <hr class="border-mist-100 my-10">
+
+                <!-- البند الثاني: الرسالة والأهداف -->
+                <section id="section-mission" class="scroll-mt-32 mb-14 page-break-inside-avoid">
+                    <div class="flex items-center gap-3 mb-5">
+                        <span class="w-9 h-9 rounded-xl bg-crimson-50 text-crimson-600 border border-crimson-200 font-heading font-extrabold flex items-center justify-center text-lg">٢</span>
+                        <h3 class="font-heading text-xl sm:text-2xl font-extrabold text-navy-800">الرسالة والأهداف الاستراتيجية</h3>
+                    </div>
+
+                    <div class="p-5 sm:p-6 rounded-2xl bg-crimson-50/60 border border-crimson-200/80 mb-6">
+                        <h4 class="font-heading font-extrabold text-crimson-700 mb-1.5 flex items-center gap-2">
+                            <span>الرسالة (Mission):</span>
+                        </h4>
+                        <p class="text-slate-700 leading-8 font-medium">
+                            تمكين الكفاءات الشبابية وتوظيف مهاراتها في تصميم وتنفيذ مبادرات مجتمعية، ثقافية، وتدريبية مبتكرة وشاملة، قائمة على التخطيط العلمي والشراكة الفاعلة مع مختلف مؤسسات المجتمع.
+                        </p>
+                    </div>
+
+                    <h4 class="font-heading font-extrabold text-navy-800 text-lg mb-4">الأهداف الاستراتيجية للفريق:</h4>
+                    <ul class="space-y-4 text-slate-700 leading-8">
+                        <!-- هدف صناعة الأثر المستدام مميز باللون الأخضر الحيوي من شجرة اللوغو -->
+                        <li class="flex items-start gap-3.5 p-4 rounded-2xl bg-lushGreen-50 border border-lushGreen-600/20">
+                            <span class="w-7 h-7 rounded-full bg-lushGreen-600 text-white text-xs flex items-center justify-center shrink-0 mt-1 font-bold shadow-sm">✓</span>
+                            <span>
+                                <strong class="text-lushGreen-700 font-extrabold">صناعة الأثر المستدام:</strong> 
+                                تغيير فكرة العمل التطوعي الموسمي العابر إلى ثقافة عمل تنموي مستدام طويل الأمد، يقوم على مشاريع ذات جذور راسخة ونتائج ملموسة قابلة للقياس والاستمرار.
+                            </span>
+                        </li>
+                        <li class="flex items-start gap-3.5 px-2">
+                            <span class="w-6 h-6 rounded-full bg-sadaBlue-500 text-white text-xs flex items-center justify-center shrink-0 mt-1.5 font-bold">✓</span>
+                            <span><strong class="text-navy-800 font-bold">بناء القدرات وتأهيل الكوادر:</strong> توفير بيئة حاضنة تُنمّي المهارات القيادية والتقنية والإعلامية لأعضاء الفريق وتعزز روح المبادرة.</span>
+                        </li>
+                        <li class="flex items-start gap-3.5 px-2">
+                            <span class="w-6 h-6 rounded-full bg-amberWave-500 text-white text-xs flex items-center justify-center shrink-0 mt-1.5 font-bold">✓</span>
+                            <span><strong class="text-navy-800 font-bold">نشر الوعي والتمكين المجتمعي:</strong> إنتاج محتوى معرفي وثقافي رصين يلامس احتياجات جميع فئات المجتمع ويعزز قيم الدمج والتكافل.</span>
+                        </li>
+                        <li class="flex items-start gap-3.5 px-2">
+                            <span class="w-6 h-6 rounded-full bg-crimson-600 text-white text-xs flex items-center justify-center shrink-0 mt-1.5 font-bold">✓</span>
+                            <span><strong class="text-navy-800 font-bold">تعزيز ثقافة الشراكة:</strong> مد جسور التعاون مع الفرق التطوعية والمؤسسات الرسمية والأهلية لتوحيد الجهود وتكامل الأدوار.</span>
+                        </li>
+                    </ul>
+                </section>
+
+                <hr class="border-mist-100 my-10">
+
+                <!-- البند الثالث: القيم والمبادئ -->
+                <section id="section-values" class="scroll-mt-32 mb-14 page-break-inside-avoid">
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="w-9 h-9 rounded-xl bg-amberWave-50 text-amberWave-600 border border-amberWave-400/40 font-heading font-extrabold flex items-center justify-center text-lg">٣</span>
+                        <h3 class="font-heading text-xl sm:text-2xl font-extrabold text-navy-800">القيم والمبادئ الحاكمة</h3>
+                    </div>
+
+                    <p class="text-slate-600 mb-6">يستمد فريق صدى قوته وتماسكه من منظومة قيمية راسخة تعكس ألوان هويته ويلتزم بها جميع الأعضاء قولاً وعملاً:</p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div class="p-5 rounded-2xl border border-mist-200 bg-mist-50/70 hover:border-sadaBlue-500/50 transition-colors">
+                            <div class="w-10 h-10 rounded-xl bg-mist-200 text-navy-800 flex items-center justify-center font-heading font-extrabold mb-3">01</div>
+                            <h4 class="font-heading font-extrabold text-navy-800 text-lg mb-1">الإتقان والجودة</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">نؤمن بأن العمل التطوعي والمجتمعي يستحق أعلى درجات الاحترافية والإتقان في التخطيط والتنفيذ.</p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl border border-crimson-200/80 bg-crimson-50/40 hover:border-crimson-500/50 transition-colors">
+                            <div class="w-10 h-10 rounded-xl bg-crimson-100 text-crimson-700 flex items-center justify-center font-heading font-extrabold mb-3">02</div>
+                            <h4 class="font-heading font-extrabold text-navy-800 text-lg mb-1">الشفافية والمسؤولية</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">الوضوح التام في القرارات والموارد، وتحمل كل عضو لمسؤوليته الكاملة تجاه المهام الموكلة إليه.</p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl border border-lushGreen-600/25 bg-lushGreen-50/50 hover:border-lushGreen-600/60 transition-colors">
+                            <div class="w-10 h-10 rounded-xl bg-lushGreen-100 text-lushGreen-700 flex items-center justify-center font-heading font-extrabold mb-3">03</div>
+                            <h4 class="font-heading font-extrabold text-navy-800 text-lg mb-1">الشمولية وروح الفريق</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">نؤمن بالتكامل واحتواء جميع الطاقات دون استثناء، ونُعلي مصلحة الفريق على المصالح الفردية.</p>
+                        </div>
+
+                        <div class="p-5 rounded-2xl border border-amberWave-400/35 bg-amberWave-50/60 hover:border-amberWave-500/60 transition-colors">
+                            <div class="w-10 h-10 rounded-xl bg-amberWave-100 text-amberWave-600 flex items-center justify-center font-heading font-extrabold mb-3">04</div>
+                            <h4 class="font-heading font-extrabold text-navy-800 text-lg mb-1">المبادرة والابتكار</h4>
+                            <p class="text-sm text-slate-600 leading-relaxed">نرحب بالأفكار الخلاقة ونشجع الحلول غير التقليدية لمواجهة التحديات المجتمعية وصناعة التغيير.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="border-mist-100 my-10">
+
+                <!-- البند الرابع: الهيكل التنظيمي ولجان العمل -->
+                <section id="section-structure" class="scroll-mt-32 mb-14 page-break-inside-avoid">
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="w-9 h-9 rounded-xl bg-mist-100 text-navy-800 border border-mist-300 font-heading font-extrabold flex items-center justify-center text-lg">٤</span>
+                        <h3 class="font-heading text-xl sm:text-2xl font-extrabold text-navy-800">الهيكل التنظيمي ولجان العمل</h3>
+                    </div>
+
+                    <p class="text-slate-700 mb-6 leading-relaxed">
+                        يُدار فريق صدى وفق هيكل تنظيمي مرن يضمن تكامل الأدوار ووضوح خطوط التواصل بين مختلف اللجان التنفيذية:
+                    </p>
+
+                    <div class="space-y-4">
+                        <div class="p-5 rounded-2xl border border-mist-200 bg-mist-50">
+                            <h4 class="font-heading font-extrabold text-navy-800 text-base mb-1">أولاً: مجلس الإدارة والقيادة التنفيذية</h4>
+                            <p class="text-sm text-slate-700 leading-relaxed">يتكون من (القائد العام للفريق، نائب القائد، ومنسقي اللجان)، ويتولى رسم السياسات العامة، اعتماد الخطط السنوية، وتمثيل الفريق رسمياً.</p>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="p-4 rounded-xl border border-mist-200 bg-white border-r-4 border-r-lushGreen-600">
+                                <h5 class="font-heading font-extrabold text-navy-800 text-sm mb-1.5">• لجنة البرامج والمشاريع</h5>
+                                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">تُعنى بتخطيط وتنفيذ المبادرات الميدانية، الورش التدريبية، والفعاليات المجتمعية وقياس أثرها.</p>
+                            </div>
+                            <div class="p-4 rounded-xl border border-mist-200 bg-white border-r-4 border-r-sadaBlue-500">
+                                <h5 class="font-heading font-extrabold text-navy-800 text-sm mb-1.5">• لجنة الإعلام وصناعة المحتوى</h5>
+                                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">تتولى إدارة الهوية البصرية، التوثيق، إدارة المنصات الرقمية، وإيصال رسالة الفريق للجمهور.</p>
+                            </div>
+                            <div class="p-4 rounded-xl border border-mist-200 bg-white border-r-4 border-r-amberWave-500">
+                                <h5 class="font-heading font-extrabold text-navy-800 text-sm mb-1.5">• لجنة الموارد البشرية والتطوير</h5>
+                                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">مسؤولة عن استقطاب الأعضاء الجدد، متابعة الأداء، وتنظيم الدورات التطويرية الداخلية.</p>
+                            </div>
+                            <div class="p-4 rounded-xl border border-mist-200 bg-white border-r-4 border-r-crimson-600">
+                                <h5 class="font-heading font-extrabold text-navy-800 text-sm mb-1.5">• لجنة العلاقات العامة والشراكات</h5>
+                                <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">تعمل على بناء التحالفات الاستراتيجية، تأمين الرعايات، والتنسيق مع الجهات الداعمة.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="border-mist-100 my-10">
+
+                <!-- البند الخامس: العضوية والحقوق والواجبات -->
+                <section id="section-membership" class="scroll-mt-32 mb-14 page-break-inside-avoid">
+                    <div class="flex items-center gap-3 mb-6">
+                        <span class="w-9 h-9 rounded-xl bg-lushGreen-50 text-lushGreen-700 border border-lushGreen-600/30 font-heading font-extrabold flex items-center justify-center text-lg">٥</span>
+                        <h3 class="font-heading text-xl sm:text-2xl font-extrabold text-navy-800">العضوية والحقوق والواجبات</h3>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- حقوق العضو -->
+                        <div class="rounded-2xl border border-lushGreen-600/25 bg-lushGreen-50/40 p-6">
+                            <h4 class="font-heading font-extrabold text-lushGreen-700 text-lg mb-4 flex items-center gap-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-lushGreen-600"></span>
+                                <span>حقوق العضو في الفريق</span>
+                            </h4>
+                            <ul class="space-y-2.5 text-sm text-slate-700">
+                                <li class="flex items-start gap-2">
+                                    <span class="text-lushGreen-600 font-bold">•</span>
+                                    <span>المشاركة الفاعلة في اقتراح المبادرات والمشاريع والتصويت عليها.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-lushGreen-600 font-bold">•</span>
+                                    <span>الحصول على التدريب والتأهيل المستمر ضمن برامج تطوير الأعضاء.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-lushGreen-600 font-bold">•</span>
+                                    <span>الترشح للمناصب القيادية وإدارة اللجان وفق معايير الكفاءة والأقدمية.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-lushGreen-600 font-bold">•</span>
+                                    <span>الحصول على شهادات خبرة وتوثيق رسمي لساعات العمل التطوعي والإنجازات.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- واجبات العضو -->
+                        <div class="rounded-2xl border border-mist-200 bg-mist-50/70 p-6">
+                            <h4 class="font-heading font-extrabold text-navy-800 text-lg mb-4 flex items-center gap-2">
+                                <span class="w-2.5 h-2.5 rounded-full bg-sadaBlue-500"></span>
+                                <span>واجبات والتزامات العضو</span>
+                            </h4>
+                            <ul class="space-y-2.5 text-sm text-slate-700">
+                                <li class="flex items-start gap-2">
+                                    <span class="text-sadaBlue-600 font-bold">•</span>
+                                    <span>الالتزام التام ببنود هذه الوثيقة وقيم الفريق وأخلاقيات العمل الجماعي.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-sadaBlue-600 font-bold">•</span>
+                                    <span>إنجاز المهام الموكلة بدقة وفي المواعيد الزمنية المتفق عليها.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-sadaBlue-600 font-bold">•</span>
+                                    <span>حضور الاجتماعات الدورية والاعتذار المسبق في حال وجود ظرف طارئ.</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <span class="text-sadaBlue-600 font-bold">•</span>
+                                    <span>الحفاظ على سرية المعلومات الداخلية وتمثيل الفريق بصورة مشرفة.</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <hr class="border-mist-100 my-10">
+
+                <!-- البند السادس: ميثاق الالتزام والاعتماد التفاعلي (موحد الخط مع بقية الوثيقة) -->
+                <section id="section-pledge" class="scroll-mt-32 page-break-inside-avoid">
+                    <div class="flex items-center gap-3 mb-5">
+                        <span class="w-9 h-9 rounded-xl bg-crimson-50 text-crimson-600 border border-crimson-200 font-heading font-extrabold flex items-center justify-center text-lg">٦</span>
+                        <h3 class="font-heading text-xl sm:text-2xl font-extrabold text-navy-800">ميثاق الالتزام والاعتماد</h3>
+                    </div>
+
+                    <div class="p-6 sm:p-8 rounded-2xl bg-mist-50 border border-mist-200">
+                        <p class="text-slate-700 font-medium leading-8 mb-6">
+                            «أُقرّ أنا الموقع أدناه باطلاعي الكامل على بنود وثيقة فريق صدى التنظيمية، وأتعهد بالالتزام بقيمها وأهدافها، والعمل بروح الفريق الواحد لصناعة أثرٍ مجتمعيٍ مستدام يليق باسم صدى ورسالته.»
+                        </p>
+
+                        <!-- أداة توثيق التزام العضو (تفاعلية) -->
+                        <div class="no-print flex flex-col sm:flex-row gap-3">
+                <!-- البند السادس المدمج: ميثاق الالتزام والاعتماد + هل تؤمن بفريق صدى؟ -->
+                <section id="section-pledge" class="scroll-mt-32 page-break-inside-avoid">
+                    <div class="flex items-center gap-3 mb-5">
+                        <span class="w-9 h-9 rounded-xl bg-crimson-50 text-crimson-600 border border-crimson-200 font-heading font-extrabold flex items-center justify-center text-lg">٦</span>
+                        <h3 class="font-heading text-xl sm:text-2xl font-extrabold text-navy-800">ميثاق الالتزام والاعتماد</h3>
+                    </div>
+
+                    <div class="p-6 sm:p-10 rounded-3xl bg-mist-50 border border-mist-200 relative overflow-hidden">
+                        <!-- شريط لوني علوي ناعم مستوحى من موجات الشعار -->
+                        <div class="absolute top-0 inset-x-0 h-1.5 flex">
+                            <div class="w-1/3 bg-sadaBlue-500"></div>
+                            <div class="w-1/3 bg-amberWave-500"></div>
+                            <div class="w-1/3 bg-crimson-600"></div>
+                        </div>
+
+                        <!-- نص ميثاق الالتزام بنفس خط وبنية بقية نصوص الوثيقة -->
+                        <p class="text-slate-700 leading-8 mb-8">
+                            «أُقرُّ بصفتي عضواً أو متطوعاً في فريق صدى بأنني اطلعتُ على بنود هذه الوثيقة التأسيسية وفهمتُ رؤيتها ورسالتها وأهدافها، وأتعهد بالالتزام بقيم الفريق وأخلاقيات العمل التطوعي، والعمل بروح الفريق الواحد لخدمة المجتمع وصناعة أثرٍ إيجابي مستدام.»
+                        </p>
+
+                        <!-- فاصل ناعم يربط الميثاق بدعوة الانضمام -->
+                        <div class="pt-8 border-t border-mist-200 text-center no-print">
+                            <h4 class="font-heading text-2xl sm:text-3xl font-extrabold text-navy-900 mb-3">
+                                هل تؤمن بفريق صدى؟
+                            </h4>
+                            <p class="text-slate-600 text-sm sm:text-base max-w-xl mx-auto mb-6 leading-relaxed">
+                                انضم إلينا الآن عبر حسابنا الرسمي على تيليغرام وكن شريكاً فاعلاً في تحويل الطاقات الشبابية إلى أثرٍ مجتمعيٍ مستدام.
+                            </p>
+
+                            <!-- زر تقديم طلب انضمام المباشر عبر تيليغرام بدرجات الأزرق الضبابي -->
+                            <div class="flex flex-col items-center justify-center gap-2.5">
+                                <a href="https://t.me/sada_team" target="_blank" rel="noopener noreferrer" onclick="showToast('جاري تحويلك إلى حساب فريق صدى على تيليغرام...')" class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-2xl bg-mist-200 hover:bg-mist-300 text-navy-900 border border-[#B8D4EE] font-heading font-extrabold text-base sm:text-lg shadow-sm hover:shadow transition-all">
+                                    <!-- أيقونة تيليغرام الرسمية SVG -->
+                                    <svg class="w-6 h-6 text-[#229ED9] fill-current" viewBox="0 0 24 24">
+                                        <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                                    </svg>
+                                    <span>تقديم طلب انضمام</span>
+                                </a>
+                                <span class="text-xs text-slate-500">سيتم فتح المحادثة مباشرة عبر تطبيق تيليغرام (Telegram)</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </article>
+        </div>
+    </main>
+
+    <!-- تذييل الصفحة (Footer) بدرجات الأزرق الضبابي الفاتح القريب للأبيض -->
+    <footer class="bg-gradient-to-b from-mist-50 to-mist-100 text-navy-800 py-10 border-t border-mist-200 no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-600">
+                <div class="flex items-center gap-3">
+                    <div class="bg-white px-2.5 py-1 rounded-xl border border-mist-200 shadow-sm">
+                        <img src="Inclusive Voices Community Logo.png" alt="شعار فريق صدى" class="h-8 w-auto object-contain" onerror="this.onerror=null; this.src='https://placehold.co/100x40/ffffff/1B365D?text=صدى';">
+                    </div>
+                    <span class="font-heading font-extrabold text-navy-800 text-base">فريق صدى</span>
+                    <span class="text-amberWave-500">•</span>
+                    <span>معاً نصنع صوتاً يدوم أثره</span>
+                </div>
+                <p class="text-xs text-slate-500">جميع الحقوق محفوظة © 2026 فريق صدى التطوعي والتنموي.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- إشعار عائم (Toast Notification) -->
+    <div id="toast" class="fixed bottom-6 left-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300 bg-white border border-mist-300 text-navy-900 px-5 py-3.5 rounded-2xl shadow-xl flex items-center gap-3 text-sm font-bold no-print">
+        <span class="w-2.5 h-2.5 rounded-full bg-sadaBlue-500"></span>
+        <span id="toast-message">تم تنفيذ الإجراء بنجاح</span>
+    </div>
+
+    <!-- البرمجة التفاعلية (JavaScript) -->
+    <script>
+        // 1. شريط تقدم القراءة وتتبع القسم النشط في الفهرس الجانبي
+        const sections = document.querySelectorAll('article section[id]');
+        const navLinks = document.querySelectorAll('.toc-link');
+        const progressBar = document.getElementById('reading-progress');
+
+        window.addEventListener('scroll', () => {
+            // تحديث شريط التقدم العلوي
+            const scrollTop = window.scrollY;
+            const docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            progressBar.style.width = `${Math.min(100, Math.max(0, scrollPercent))}%`;
+
+            // تحديد القسم النشط حالياً
+            let currentSectionId = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 160;
+                if (scrollTop >= sectionTop) {
+                    currentSectionId = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                const target = link.getAttribute('data-target');
+                const badge = link.querySelector('span:first-child');
+                if (target === currentSectionId) {
+                    link.classList.add('bg-mist-100', 'text-navy-800', 'font-bold', 'border-r-4', 'border-sadaBlue-500');
+                    link.classList.remove('text-slate-600', 'font-medium');
+                    badge.classList.add('bg-sadaBlue-500', 'text-white');
+                    badge.classList.remove('bg-mist-100', 'text-navy-700');
+                } else {
+                    link.classList.remove('bg-mist-100', 'text-navy-800', 'font-bold', 'border-r-4', 'border-sadaBlue-500');
+                    link.classList.add('text-slate-600', 'font-medium');
+                    badge.classList.remove('bg-sadaBlue-500', 'text-white');
+                    badge.classList.add('bg-mist-100', 'text-navy-700');
+                }
+            });
+        });
+
+        // 2. التحكم في حجم خط الوثيقة لراحة القراءة
+        let currentFontScale = 100;
+        function changeFontSize(direction) {
+            currentFontScale = Math.min(125, Math.max(85, currentFontScale + (direction * 5)));
+            document.getElementById('document-content').style.fontSize = `${currentFontScale}%`;
+            showToast(`تم ضبط حجم خط الوثيقة إلى ${currentFontScale}%`);
+        }
+
+        // 3. نسخ رابط الصفحة للمشاركة
+        function copyShareLink() {
+            const tempInput = document.createElement('input');
+            tempInput.value = window.location.href;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            showToast('تم نسخ رابط وثيقة فريق صدى إلى الحافظة');
+        }
+
+        // 4. إظهار الإشعارات العائمة (Toast)
+        let toastTimeout;
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            const toastMsg = document.getElementById('toast-message');
+            toastMsg.textContent = message;
+            
+            toast.classList.remove('translate-y-20', 'opacity-0');
+            clearTimeout(toastTimeout);
+            toastTimeout = setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 3500);
+        }
+    </script>
+</body>
+</html>
